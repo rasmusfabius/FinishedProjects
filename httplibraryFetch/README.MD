@@ -13,3 +13,7 @@
 * Make an HTTP DELETE request.
 
 THIS IS A TEMPLATE THERE CAN BE USED ALL PLACES
+
+- @Version 2.0.0
+- @Authur Rasmus Meiencke
+- @License MIT
