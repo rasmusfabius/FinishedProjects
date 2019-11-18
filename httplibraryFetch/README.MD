@@ -1,4 +1,4 @@
-# Custom HTTP Library
+# Custom HTTP Library - Fetch With Promises
 
 ### I USED IN THE LIBRARY
 
