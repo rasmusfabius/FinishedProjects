@@ -15,8 +15,9 @@ searchUserInput.addEventListener('keyup', e => {
   if (userText !== '') {
     //Make http call
     github.getUser(userText).then(data => {
-      if (data.profile.massage === 'Not Found') {
+      if (data.profile.message === 'Not Found') {
         //Show alert
+        ui.showAlert('User not found', 'alert alert-danger');
       } else {
         //Show the profil
         ui.showProfile(data.profile);
@@ -24,5 +25,6 @@ searchUserInput.addEventListener('keyup', e => {
     });
   } else {
     //Clear profil
+    ui.clearProfile();
   }
 });
